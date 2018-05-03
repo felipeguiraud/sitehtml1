@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="logicus" />
+		<meta name="keywords" content="html, css, treinamento, web" />
+		<meta name="generetor" content="vim" />
+	</head>
+
+	<body>
+		<p>Exemplo de meta tag keywords</p>
+	</body>
+</html>
