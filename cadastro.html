@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>"Participando da nossa comunidade"</title>
+	</head>
+
+	<body>
+		<style>
+			input[type=text], select {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			}
+			
+			input[type=submit] {	
+			width: 100%;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			}
+
+			input[type=submit]: hover {
+			background-color: #45a049;
+			}
+			div {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+				}
+		</style>
+
+		<form name="formulario" action="form.php" methods="post" enctype="application/x-www-form-urlencoded">
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<p>
+				<label for="nome">Nome: </label>
+				<input type="text" name="nome" id="nome" title="Nome" size="60" placaholder="Digite seu primeiro nome" required autofocus/>
+				</p>
+				<label for="email">Sobrenome: </label>
+				<input type="email" name="email" id="email" title="Email" size="60" placeholder="exemplo: da Silva" required/>
+				</p>
+				<label for="email">Email: </label>
+				<input type="email" name="email" id="email" title="Email" size="60" placeholder="exemplo: contato@futebolpr.com.br" required/>
+				</p>
+				<label for="email">Data de nascimento: </label>
+				<input type="email" name="email" id="email" title="Email" size="60" placeholder="exemplo: 12/11/1987" required/>
+				</p>
+				<label for="email">Hora de nascimento: </label>
+				<input type="email" name="email" id="email" title="Email" size="60" placeholder="exemplo: 18:53h" required/>
+				</p>
+				<label for="email">Qual sua cor preferida? </label>
+                                <input type="email" name="email" id="email" title="Email" size="60" placeholder="exemplo: azul" required/>
+                                </p>
+
+                                </p>
+				<p>
+				<label for="estado">Estado: </label>
+				<select name="estado" id="estado">
+					<option selected="selected">Escolha um estado</option>
+					<option value="Paraná">PR</option>
+					<option value="Santa Catarina">SC</option>
+					<option value="Rio Grande do Sul">RS</option>
+					<option value="São Paulo">SP</option>	
+					<option value="Rio de Janeiro">RJ</option>
+					<option value="Minas Gerais">MG</option>
+					<option value="Bahia">BA</option>
+				</select>
+				</p>
+			</fieldset>
+			</p>
+			<p>
+			<input type="submit" value="enviar"/>
+			</p>
+		</form>
+
+	</body>
+
+</html> 
